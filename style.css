@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+}
+
+header {
+	padding: 25px 0;
+	font-size: 32px;
+}
+/* scoreboard */
+#scoreboard {
+	width: 300px;
+	height: 150px;
+	border: 3px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+}
+
+.label {
+	background-color: green;
+	padding: 2px 4px;
+	border-radius: 3px;
+	font-size: 24px;
+}
+
+#user {
+	position: absolute;
+	top: 55px;
+	left: -35px;
+}
+
+#computer {
+	position: absolute;
+	top: 55px;
+	right: -40px;
+}
+
+#result {
+	position: absolute;
+	top: 45px;
+	left: 140px;
+	font-size: 18px;
+}
+/* scoreboard */
+
+
+/* choices */
+
+#choices {
+	top: 70px;
+	position: relative;
+	text-align: center;
+}
+
+img {
+	margin-right: 50px;
+	height: 70px;
+	cursor: pointer;
+}
+
+/**/
+#reset {
+	position: relative;
+	top:100px;
+	border:1px solid black;
+	background: lightgrey;
+	padding: 3px;
+	font-size: 24px;
+	cursor: pointer;
+}
